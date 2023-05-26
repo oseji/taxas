@@ -14,10 +14,12 @@
   <body>
     <main class="container">
       <header>
-        <img src="images/Taxas Logo.png" alt="logo" class="navLogo" />
-        <img src="images/menu.png" alt="menu" class="hamburger" />
+        <div class="flex flex-row justify-between items-center">
+          <img src="images/Taxas Logo.png" alt="logo" class="navLogo" />
+          <img src="images/menu.png" alt="menu" class="hamburger" />
+        </div>
 
-        <nav class="navbar">
+        <nav class="navbar closed">
           <ul class="navList">
             <li class="navText">
               <a href="#" class="navLink">Home</a>
@@ -38,13 +40,13 @@
 
       <!--SECTION 1-->
       <section class="section1">
-        <div class="textSection">
+        <div class="textSection pr-5 lg:pr-0">
           <h1 class="section1Heading">
             Smoothly Navigating the World of Logistics, We Make Your Business
             <span class="text-btnColor">Soar</span>.
           </h1>
 
-          <p class="sectionText w-1/2 mb-5">
+          <p class="sectionText lg:w-1/2 mb-5">
             Experience the peace of mind that comes with our dependable
             logistics services, designed to keep your supply chain running
             seamlessly and your customers satisfied.
@@ -91,7 +93,7 @@
 
       <!--SECTION 2-->
       <section class="section2">
-        <h1 class="sectionHeading w-45/100 text-center mx-auto">
+        <h1 class="sectionHeading lg:w-45/100 text-center mx-auto">
           Delivering Logistics Solutions with Care. Your
           <span class="text-btnColor">Trusted Partner</span> for Transportation
           & Delivery.
@@ -140,7 +142,7 @@
 
       <!--SECTION 3-->
       <section class="section3">
-        <h1 class="sectionHeading w-4/10">
+        <h1 class="sectionHeading text-center lg:text-left lg:w-4/10">
           <span class="text-btnColor">Solutions</span> We Provide for Your
           Logistics Problems.
         </h1>
@@ -212,7 +214,7 @@
       <!--SECTION 5-->
       <section class="section5">
         <div class="textSection5">
-          <h1 class="sectionHeading w-10/12">
+          <h1 class="sectionHeading lg:w-10/12">
             We're <span class="text-btnColor">Here to Help!</span> Contact Us
             for Your Logistics Needs.
           </h1>
@@ -241,6 +243,8 @@
                 rows="10"
               ></textarea>
             </div>
+
+            <button class="btn">Send message</button>
           </form>
         </div>
         <div class="imgSection">
@@ -265,5 +269,6 @@
         <p>Designed by Retro Developers.</p>
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
