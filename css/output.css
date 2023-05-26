@@ -585,6 +585,10 @@ video {
   justify-content: space-between;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .pr-5 {
   padding-right: 1.25rem;
 }
