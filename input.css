@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100;
+}
+
+.container {
+  @apply max-w-full;
+}
+
+header {
+  @apply flex flex-col lg:flex-row justify-between items-center px-16 pb-16;
+}
+
+.navLogo {
+  @apply h-16;
+}
+
+.hamburger {
+  @apply lg:hidden;
+}
+
+.navbar {
+  @apply flex flex-col lg:flex-row gap-7 font-semibold items-center;
+}
+
+.navList {
+  @apply flex flex-col lg:flex-row gap-7;
+}
+
+.navText {
+  @apply text-slate-500  hover:text-black transition ease-in-out duration-200;
+}
+
+.navBtn {
+  @apply text-orange-500 border-orange-500 border rounded-lg px-4 py-1 hover:text-white hover:bg-orange-500 transition ease-in-out duration-200;
+}
+
+/*SECTION 1*/
+.section1 {
+  @apply pl-16 flex flex-col lg:flex-row;
+}
+
+.textSection {
+  @apply w-1/2;
+}
+
+.imgSection {
+  @apply w-1/2;
+}
+
+.section1Heading {
+  @apply text-5xl mb-10 font-space font-bold;
+}
+
+.sectionText {
+  @apply text-slate-500;
+}
+
+.truck {
+  @apply h-110 w-140 m-0;
+}
+
+.btn {
+  @apply font-semibold bg-btnColor px-4 py-2 rounded-lg hover:scale-110 transition ease-in-out duration-200;
+}
+
+.stripGrp {
+  @apply flex flex-row justify-center gap-12 py-2 border-y border-slate-400 text-slate-400;
+}
+
+.strip {
+  @apply flex flex-row gap-12;
+}
+
+/*SECTION 2*/
+.section2 {
+  @apply mt-20 px-16 py-10;
+}
+
+.sectionHeading {
+  @apply text-3xl font-space font-semibold mb-10;
+}
+
+.sectionGrp {
+  @apply flex flex-row gap-5;
+}
+
+.section2Img {
+  @apply h-105 mr-10;
+}
+
+.textGrp {
+  @apply mt-10 mb-20 w-10/12;
+}
+
+.textIcon {
+  @apply mb-5;
+}
+
+.text {
+  @apply text-sm text-slate-700 font-semibold;
+}
+
+/*SECTION 3*/
+.section3 {
+  @apply mt-20 px-16 py-10;
+}
+
+.logisticImg {
+  @apply mb-5 h-72 w-72 w-80 flex-none;
+}
+
+.logisticHeading {
+  @apply font-semibold mb-3 text-slate-800;
+}
+
+.logisticText {
+  @apply text-slate-500;
+}
+
+/*SECTION 4*/
+.section4 {
+  @apply mt-5 mb-10 px-16 py-10;
+}
+
+.reviewCard {
+  @apply w-1/3 mx-auto border border-slate-300 rounded-xl p-7 bg-white;
+}
+
+.rating {
+  @apply mb-10 mx-auto;
+}
+
+.reviewText {
+  @apply font-semibold text-sm mb-10;
+}
+
+.profileGrp {
+  @apply flex justify-center gap-5;
+}
+
+/*SECTION 5*/
+.section5 {
+  @apply flex flex-row justify-between mt-20 px-16 py-16 border-t border-slate-300 bg-white;
+}
+
+.textSection5 {
+  @apply w-4/10;
+}
+
+label {
+  @apply font-semibold mb-1;
+}
+
+input {
+  @apply p-2 border border-slate-400 rounded-xl outline-none;
+}
+
+textarea {
+  @apply h-32 p-2 border border-slate-400 rounded-xl outline-none;
+}
+
+.inputGrp {
+  @apply flex flex-col mb-5;
+}
+
+.section5Img {
+  @apply h-120 ml-auto mt-10;
+}
+
+.imgFooterGrp {
+  @apply flex flex-row gap-4;
+}
+
+.bottomImg {
+  @apply h-8;
+}
+
+footer {
+  @apply bg-black px-16 py-10 text-white;
+}
