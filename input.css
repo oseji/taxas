@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
 .closed {
   @apply h-0 lg:h-auto overflow-hidden lg:overflow-visible;
 }
@@ -35,7 +39,7 @@ header {
 }
 
 .navList {
-  @apply mt-16 lg:mt-0 flex flex-col lg:flex-row gap-16 lg:gap-7;
+  @apply text-center lg:text-left mt-16 lg:mt-0 flex flex-col lg:flex-row gap-16 lg:gap-7;
 }
 
 .navText {
