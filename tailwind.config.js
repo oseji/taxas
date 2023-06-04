@@ -8,6 +8,7 @@ module.exports = {
         105: "410px",
         120: "550px",
         device: "90vh",
+        85: "345px",
       },
       width: {
         140: "650px",
