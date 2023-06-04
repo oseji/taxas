@@ -80,7 +80,7 @@ const reviewInterval = () => {
     avatarName.textContent = reviews[index]?.owner;
 
     index++;
-    console.log(index);
+    //console.log(index);
 
     if (index === 4) {
       //clearInterval(reviewIntervalId);
