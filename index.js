@@ -83,7 +83,8 @@ const reviewInterval = () => {
     console.log(index);
 
     if (index === 4) {
-      clearInterval(reviewIntervalId);
+      //clearInterval(reviewIntervalId);
+      index = 0; //instead of ending the review cycling when index=4,let the index=0 again so the cycle can restart
     }
   }, 5000);
 };
