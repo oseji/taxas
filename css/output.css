@@ -621,7 +621,7 @@ section {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
+  transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
@@ -643,7 +643,6 @@ section {
 }
 
 .sectionHidden {
-  display: none;
   --tw-translate-y: 8rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   opacity: 0;
@@ -669,6 +668,8 @@ body {
 .container {
   max-width: 100%;
 }
+
+/*NAVBAR*/
 
 header {
   display: flex;

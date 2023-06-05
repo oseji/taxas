@@ -93,25 +93,25 @@ reviewInterval();
 //
 //
 //scroll animation logic
-// const allSections = document.querySelectorAll(".section");
-// console.log(allSections);
+const allSections = document.querySelectorAll(".section");
+console.log(allSections);
 
-// const scrollFunction = (entries, observer) => {
-//   const [entry] = entries;
-//   console.log(entry);
+const scrollFunction = (entries, observer) => {
+  const [entry] = entries;
+  console.log(entry);
 
-//   if (entry.isIntersecting) {
-//     entry.target.classList.remove("sectionHidden");
-//     observer.unobserve(entry.target);
-//   }
-// };
+  if (entry.isIntersecting) {
+    entry.target.classList.remove("sectionHidden");
+    observer.unobserve(entry.target);
+  }
+};
 
-// const sectionObserver = new IntersectionObserver(scrollFunction, {
-//   root: null,
-//   threshold: 0.2,
-// });
+const sectionObserver = new IntersectionObserver(scrollFunction, {
+  root: null,
+  threshold: 0.2,
+});
 
-// allSections.forEach((section) => {
-//   sectionObserver.observe(section);
-//   section.classList.add("sectionHidden");
-// });
+allSections.forEach((section) => {
+  sectionObserver.observe(section);
+  section.classList.add("sectionHidden");
+});

@@ -7,7 +7,7 @@ html {
 }
 
 section {
-  @apply transition ease-in duration-200;
+  @apply transition ease-in duration-500;
 }
 
 .closed {
@@ -19,7 +19,7 @@ section {
 }
 
 .sectionHidden {
-  @apply hidden opacity-0 translate-y-32;
+  @apply opacity-0 translate-y-32;
 }
 
 .imgScaleUp {
@@ -38,6 +38,7 @@ body {
   @apply max-w-full;
 }
 
+/*NAVBAR*/
 header {
   @apply flex flex-col lg:flex-row justify-between lg:items-center px-5 lg:px-16 pb-5 lg:pb-16;
 }
